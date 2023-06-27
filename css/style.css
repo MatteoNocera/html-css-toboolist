@@ -23,25 +23,32 @@ body {
     --bool-box4: #f29e33;
     --bool-box5: #d863a1;
     --bool-box6: #b0c926;
+    --bool-maintext: #444851;
 
 }
 
 .pdd_1_3 {
+    margin-top: 2rem;
     padding: 1rem 3rem;
+    border-bottom: 1px solid lightgray;
 }
 
 .container {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     background-color: white;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
-.button {
-    border: none;
-    border-radius: 5px;
-    padding: 0.4rem;
+
+
+
+
+h2, p {
+    color: var(--bool-maintext);
+    
 }
+
 
 /* #endregion Utility */
 
@@ -66,8 +73,70 @@ body {
 #task {
     background-color: var(--bool-box1);
     color: white;
-    
 }
 
+#add_section {
+    background-color: white;
+    color: lightgray;
+    border: 1px solid lightgrey;
+}
+
+.nav_button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
+nav {
+    margin-top: 3rem;
+}
 
 /* #endregion Nav */
+
+/* #region Main */
+
+.main_button {
+    border: none;
+    border-radius: 50px;
+    padding: 0.4rem;
+    color: white;
+}
+
+#edit {
+    background-color: var(--bool-box1);
+}
+
+#q_goals {
+    background-color: var(--bool-box2);
+}
+
+#recruiting {
+    background-color: var(--bool-box3);
+}
+
+#mobile {
+    background-color: var(--bool-box4);
+}
+
+.yes {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.nien{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+article {
+    padding-top: 3rem;
+}
+
+p {
+    line-height: 3rem;
+}
+/* #endregion Main */
