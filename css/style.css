@@ -1,0 +1,45 @@
+/* #region Default rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bool-body_color);
+}
+
+
+
+/* #endregion Default rules */
+
+/* #region Utility */
+
+:root {
+    --bool-body_color: #f6f8f9;
+    --bool-box1: #47adf1;
+    --bool-box2: #9c72e4;
+    --bool-box3: #64c0a9;
+    --bool-box4: #f29e33;
+    --bool-box5: #d863a1;
+    --bool-box6: #b0c926;
+
+}
+
+/* #endregion Utility */
+
+/* #region Header */
+
+#head_container {
+    background-color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo {
+    vertical-align: middle;
+    padding: 0.5rem;
+    
+}
+
+/* #endregion Header */
