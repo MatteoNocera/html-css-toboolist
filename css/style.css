@@ -148,3 +148,16 @@ p {
     line-height: 3rem;
 }
 /* #endregion Main */
+
+/* #region Footer */
+
+footer {
+    height: 2rem;
+    background-color: var(--bool-box1);
+    text-align: center;
+    line-height: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+/* #endregion Footer */
