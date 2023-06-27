@@ -102,7 +102,7 @@ nav {
     color: white;
 }
 
-#edit {
+.edit {
     background-color: var(--bool-box1);
 }
 
