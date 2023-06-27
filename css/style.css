@@ -26,6 +26,23 @@ body {
 
 }
 
+.pdd_1_3 {
+    padding: 1rem 3rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 3rem;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
 /* #endregion Utility */
 
 /* #region Header */
@@ -43,3 +60,14 @@ body {
 }
 
 /* #endregion Header */
+
+/* #region Nav */
+
+#task {
+    background-color: var(--bool-box1);
+    color: white;
+    
+}
+
+
+/* #endregion Nav */
