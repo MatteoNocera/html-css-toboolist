@@ -118,6 +118,14 @@ nav {
     background-color: var(--bool-box4);
 }
 
+#web_site {
+    background-color: var(--bool-box5);
+}
+
+#sales {
+    background-color: var(--bool-box6);
+}
+
 .yes {
     color: green;
     border: 1px solid green;
